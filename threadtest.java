@@ -12,7 +12,9 @@ class ThreadTest {
             public void run(){
                 increment();
                 decrement();
-                setToZero()
+                addTwice();
+                add2();
+                lillian();
                 System.out.println("runnable");
             }
         };
@@ -28,9 +30,19 @@ class ThreadTest {
     public static void decrement(){
         count--;
     }
-    public static void setToZero(a){
-        a=0;
+
+    public static void add2(){
+        count+=2;
+    }
+
+    public static int addTwice(){
+        count ++;
+        count ++;
+        return count;
+    }
+    public static int lillian(){
+        
+        count =0;
+        return count;
     }
 }
-
-
