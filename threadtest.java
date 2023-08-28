@@ -38,7 +38,16 @@ class ThreadTest {
         count ++;
         return count;
     }
-    public static void lillian(){
+    public static void pow(int n){
+    for( i = 0; i < n; i++){
+        count =5 ;
+        count = count * count;
+
+    }
+    
+}
+public static void lillian(){
         count=0;
     }
 }
+
