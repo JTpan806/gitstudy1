@@ -8,10 +8,9 @@ class ThreadTest {
             public void run(){
                 increment();
                 decrement();
-                divide(1);
                 addTwice();
                 add2();
-                multipule();
+                multiple(2);
                 lillian();
                 System.out.println("runnable");
             }
@@ -25,17 +24,21 @@ class ThreadTest {
     public static void decrement(){
         count--;
     }
-    public static void divide(int x){
-        count /= x;
-    }
+
     public static void add2(){
         count+=2;
     }
+
+    public static void multiple(int x){
+        count *=x;
+    }
+    
     public static int addTwice(){
         count ++;
         count ++;
         return count;
     }
+
     public static int multipule(){
         
     	count *=10;
@@ -44,9 +47,5 @@ class ThreadTest {
     public static void lillian(){
     	count =0;
     }
-    public static int multiple(int x){
-        x=10;
-    	count *=x;
-    	return count;
-    }
+    
 }
