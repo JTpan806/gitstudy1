@@ -29,9 +29,8 @@ class ThreadTest {
         count--;
     }
 
-    public static int addTwice(){
+    public static void addTwice(){
         count += 2;
-        return count;
     }
 }
 
