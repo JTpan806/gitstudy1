@@ -12,6 +12,7 @@ class ThreadTest {
             public void run(){
                 increment();
                 decrement();
+                setToZero()
                 System.out.println("runnable");
             }
         };
@@ -26,6 +27,9 @@ class ThreadTest {
 
     public static void decrement(){
         count--;
+    }
+    public static void setToZero(a){
+        a=0;
     }
 }
 
