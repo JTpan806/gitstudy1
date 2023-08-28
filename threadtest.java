@@ -12,9 +12,6 @@ class ThreadTest {
             public void run(){
                 increment();
                 decrement();
-
-                divide(1);
-
                 addTwice();
                 add2();
                 multiple(3);
@@ -34,14 +31,6 @@ class ThreadTest {
     public static void decrement(){
         count--;
     }
-
-
-    public static void divide(int x){
-         
-        
-        count /= x;
-    }
-
 
     public static void add2(){
         count+=2;
