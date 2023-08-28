@@ -12,6 +12,7 @@ class ThreadTest {
             public void run(){
                 increment();
                 decrement();
+                addTwice();
                 System.out.println("runnable");
             }
         };
@@ -26,6 +27,10 @@ class ThreadTest {
 
     public static void decrement(){
         count--;
+    }
+
+    public static int addTwice(){
+        counter += 2;
     }
 }
 
