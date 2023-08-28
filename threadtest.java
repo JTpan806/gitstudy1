@@ -11,7 +11,7 @@ class ThreadTest {
                 addTwice();
                 add2();
                 multiple(3);
-
+                lillian();
                 System.out.println("runnable");
             }
         };
@@ -37,5 +37,8 @@ class ThreadTest {
         count ++;
         count ++;
         return count;
+    }
+    public static void lillian(){
+        count=0;
     }
 }
