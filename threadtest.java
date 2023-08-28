@@ -30,7 +30,8 @@ class ThreadTest {
     }
 
     public static int addTwice(){
-        counter += 2;
+        count += 2;
+        return count;
     }
 }
 
