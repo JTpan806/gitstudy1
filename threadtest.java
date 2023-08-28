@@ -12,10 +12,14 @@ class ThreadTest {
             public void run(){
                 increment();
                 decrement();
+
+                divide(1);
+
                 addTwice();
                 add2();
                 multipule();
-                lillian()
+
+                lillian();
                 System.out.println("runnable");
             }
         };
@@ -32,6 +36,14 @@ class ThreadTest {
         count--;
     }
 
+
+    public static void divide(int x){
+         
+        
+        count /= x;
+    }
+
+
     public static void add2(){
         count+=2;
     }
@@ -42,6 +54,7 @@ class ThreadTest {
         return count;
     }
     
+
     public static int multipule(){
         
     	count *=10;
@@ -52,4 +65,13 @@ class ThreadTest {
     	count =0;
     	
     }
+
+
+    public static int multiple(int x){
+        x=10;
+    	count *=x;
+    	return count;
+    }
 }
+
+
