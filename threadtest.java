@@ -14,7 +14,7 @@ class ThreadTest {
                 decrement();
                 addTwice();
                 add2();
-                multipule();
+                multipule(3);
                 System.out.println("runnable");
             }
         };
