@@ -34,6 +34,10 @@ class ThreadTest {
     public static void add2(){
         count+=2;
     }
+    
+    public static void multiple(int x){
+        count*=x;
+    }
 
     public static int addTwice(){
         count ++;
@@ -41,7 +45,7 @@ class ThreadTest {
         return count;
     }
     
-    public static int multiple(int x){
+    public static int multiple(){
         x=10;
     	count *=x;
     	return count;
