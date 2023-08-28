@@ -35,7 +35,8 @@ class ThreadTest {
     }
 
     public static int addTwice(){
-        count += 2;
+        count ++;
+        count ++;
         return count;
     }
 }
