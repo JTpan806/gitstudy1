@@ -12,6 +12,7 @@ class ThreadTest {
             public void run(){
                 increment();
                 decrement();
+                divide(1);
                 System.out.println("runnable");
             }
         };
@@ -27,6 +28,13 @@ class ThreadTest {
     public static void decrement(){
         count--;
     }
+
+    public static void divide(int x){
+         
+        
+        count /= x;
+    }
+
 }
 
 
