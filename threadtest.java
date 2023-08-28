@@ -14,6 +14,7 @@ class ThreadTest {
                 decrement();
                 addTwice();
                 add2();
+                multipule(int x);
                 System.out.println("runnable");
             }
         };
@@ -38,6 +39,10 @@ class ThreadTest {
         count ++;
         count ++;
         return count;
+    }
+    
+    public static int multiple(){
+        count *x;
     }
 }
 
