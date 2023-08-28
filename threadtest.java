@@ -38,4 +38,13 @@ class ThreadTest {
         count ++;
         return count;
     }
+    public static void pow(int n){
+    for(int i = 0; i < n; i++){
+        count =5 ;
+        count = count * count;
+
+    }
+    
+}
+
 }
