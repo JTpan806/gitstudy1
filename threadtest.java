@@ -13,6 +13,7 @@ class ThreadTest {
                 increment();
                 decrement();
                 addTwice();
+                add2();
                 System.out.println("runnable");
             }
         };
@@ -27,6 +28,10 @@ class ThreadTest {
 
     public static void decrement(){
         count--;
+    }
+
+    public static void add2(){
+        count+=2;
     }
 
     public static int addTwice(){
