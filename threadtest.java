@@ -14,7 +14,8 @@ class ThreadTest {
                 decrement();
                 addTwice();
                 add2();
-                lillian();
+                multipule();
+                lillian()
                 System.out.println("runnable");
             }
         };
@@ -40,9 +41,15 @@ class ThreadTest {
         count ++;
         return count;
     }
-    public static int lillian(){
+    
+    public static int multipule(){
         
-        count =0;
-        return count;
+    	count *=10;
+    	return count;
+    }
+    public static void lillian(){
+        
+    	count =0;
+    	
     }
 }
